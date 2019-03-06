@@ -46,7 +46,6 @@ namespace ConsoleApp9
                 Console.ReadKey();
                 Environment.Exit(0);
             }
-
             if (rechner == 2)
             {
                 Console.WriteLine("Subtrahieren: Geben Sie Ihre erste Zahl ein");
@@ -82,7 +81,13 @@ namespace ConsoleApp9
                 Console.ReadKey();
                 Environment.Exit(0);
             }
-                
+            else
+            {
+                Console.Clear();
+                Console.WriteLine("Falsche Eingabe, bitte Starten Sie neu");
+                Console.ReadKey();
+            }
+          
 
             Console.ReadKey();
         }
